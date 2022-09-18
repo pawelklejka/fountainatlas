@@ -1,0 +1,25 @@
+/* 
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+ /* COLORS */
+$mainNavy: #0E1129;
+$secondaryNavy: #243B55;
+$mainGreen: #50CC7F;
+$mainBlue: #00F2FE;
+$mainYellow: #FFF33B;
+$mainOrange: #E93E3A;
+$mainPink: #CC208E;
+$mainPurple: #6713D2;
+
+body{
+    background: #0E1129;  /* fallback for old browsers */
+    background: linear-gradient(to left, $secondaryNavy, $mainNavy); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
